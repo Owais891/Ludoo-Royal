@@ -1,0 +1,22 @@
+{
+    "name": "ludo-royale/backend",
+    "description": "Ludo Royale REST API backend (Core PHP)",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "ext-pdo": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LudoRoyale\\": "./"
+        },
+        "files": [
+            "helpers/functions.php"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
